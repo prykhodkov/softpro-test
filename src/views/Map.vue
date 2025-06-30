@@ -23,7 +23,7 @@ const map = ref(null)
 onMounted(() => {
   map.value = new maplibregl.Map({
     container: 'map',
-    style: 'https://tiles.stadiamaps.com/styles/alidade_smooth.json',
+    style: 'https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json',
     center: [30.5234, 50.4501],
     zoom: 13
   })
