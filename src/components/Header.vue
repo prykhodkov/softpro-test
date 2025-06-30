@@ -4,8 +4,8 @@
       <div class="header__grid flex justify-between items-center">
         <div class="header__logo w-3xs"><img :src="logo" alt="" class="w-full"></div>
         <nav class="header__nav text-lg">
-          <RouterLink to="/" class="ml-4 p-1">Home</RouterLink>
-          <RouterLink to="/map" class="ml-4 p-1">Map</RouterLink>
+          <RouterLink to="/" class="ml-3 p-1">Головна</RouterLink>
+          <RouterLink to="/map" class="ml-3 p-1">Карта</RouterLink>
         </nav>
       </div>
     </div>

@@ -5,7 +5,7 @@
           <SearchInput
             v-model="searchQuery"
             :debounce="true"
-            placeholder="Пошук за назвою, локацією або описом..."
+            placeholder="Пошук за назвою"
             class="w-full mb-8"
           />
           <List :rentals="paginatedRentals" class="w-full mb-8" />
